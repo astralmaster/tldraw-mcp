@@ -29,5 +29,21 @@
     "react-dom": "^19.1.0",
     "tldraw": "5.5.2"
   },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tldraw",
+    "claude-code",
+    "diagrams"
+  ],
+  "author": "George Andguladze",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astralmaster/tldraw-mcp.git"
+  },
+  "homepage": "https://github.com/astralmaster/tldraw-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/astralmaster/tldraw-mcp/issues"
+  },
   "license": "MIT"
 }
