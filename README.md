@@ -1,5 +1,8 @@
 # tldraw-mcp
 
+[![CI](https://github.com/astralmaster/tldraw-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/astralmaster/tldraw-mcp/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 An MCP server that lets Claude Code draw on tldraw boards. Claude builds the board as a `.tldr` file on your disk. You import that file into tldraw.com, where it becomes a normal board in your account.
 
 ![Shop architecture diagram drawn through this server](examples/shop-architecture.png)
