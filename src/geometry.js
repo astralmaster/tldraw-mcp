@@ -84,7 +84,6 @@ export const LINE_HEIGHT = 1.35
 export const LABEL_PADDING = 16
 export const FONT_SIZES = { s: 1.125, m: 1.5, l: 2.25, xl: 2.75 } // text shapes
 export const LABEL_FONT_SIZES = { s: 1.125, m: 1.375, l: 1.625, xl: 2 } // geo + note labels
-export const ARROW_LABEL_FONT_SIZES = { s: 1.125, m: 1.25, l: 1.5, xl: 1.75 }
 
 // Average advance width per character, as a fraction of font size
 // (measured in Chromium with tldraw's fonts on mixed English text).

@@ -10,7 +10,7 @@ import {
   DefaultFontStyle, DefaultHorizontalAlignStyle, DefaultVerticalAlignStyle, DefaultTextAlignStyle,
   ArrowShapeArrowheadStartStyle, ArrowShapeKindStyle, LineShapeSplineStyle,
 } from '@tldraw/tlschema'
-import { getIndexAbove, getIndexBelow, getIndexBetween, getIndicesBetween } from '@tldraw/utils'
+import { getIndexAbove, getIndexBetween, getIndicesBetween } from '@tldraw/utils'
 import {
   Mat, rotate, toRad, toDeg, round, boundsOf, boxCorners, estimateRich, textWidth,
   THEME_FONT_SIZE, LABEL_PADDING, FONT_SIZES, LABEL_FONT_SIZES,

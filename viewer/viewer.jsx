@@ -1,7 +1,6 @@
 // A headless tldraw editor the MCP server drives to preview and export boards.
 // It opens files with the same function tldraw.com uses (parseTldrawJsonFile),
 // measures labels with tldraw's own text layout, and renders with editor.toImage.
-import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { Tldraw, parseTldrawJsonFile, createTLSchema } from 'tldraw'
 import { getAssetUrls } from '@tldraw/assets/selfHosted'
