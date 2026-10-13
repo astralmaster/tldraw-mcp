@@ -1,0 +1,33 @@
+{
+  "name": "tldraw-mcp",
+  "version": "2.0.0",
+  "description": "Full-featured MCP server for Claude Code: draw on tldraw boards saved as .tldr files you import into tldraw.com, with previews and PNG/SVG export rendered by tldraw itself.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "tldraw-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "postinstall": "node scripts/build-viewer.mjs",
+    "build-viewer": "node scripts/build-viewer.mjs --force",
+    "test": "node --test --test-concurrency=1 test/tools.test.js test/render.test.js",
+    "update-tldraw": "node scripts/update-tldraw.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@tldraw/assets": "5.5.2",
+    "@tldraw/tlschema": "5.5.2",
+    "@tldraw/utils": "5.5.2",
+    "esbuild": "^0.25.0",
+    "image-size": "^2.0.2",
+    "playwright-core": "^1.56.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tldraw": "5.5.2"
+  },
+  "license": "MIT"
+}

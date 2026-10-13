@@ -1,0 +1,4 @@
+node_modules/
+# Built by `npm install` (scripts/build-viewer.mjs). It bundles the tldraw SDK,
+# which has its own license, so it stays out of the repository.
+viewer/dist/
